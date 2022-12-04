@@ -1,0 +1,70 @@
+.Welcomeline{
+    text-align: center;
+    font-weight: bold
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    font-weight: bold
+}
+.coach-outlook{
+    padding-left: 5px; text-align: center
+}
+.text-adjustment{
+    color:rgb(4, 4, 88);
+    font-weight: bold;
+  border-radius:56px;
+
+}
+.spacing{
+    display: inline;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 5px;
+}
+// Mobile View
+@media (min-width: 300px) and (max-width: 767px) {
+    .Welcomeline{
+        font-size: 20px;
+    }
+   
+    .coachseaticon{
+        font-size: 25px;
+    }
+    
+    
+
+} //@media end
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
+    .Welcomeline{
+        font-size: 45px;
+    }
+    
+    .coachseaticon{
+        font-size: 30px;
+    }
+    
+} //@media end
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+    .Welcomeline{
+        font-size: 40px;
+    }
+
+    .coachseaticon{
+        font-size: 25px;
+    }
+    
+
+
+} //@media end
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+} //@media end
