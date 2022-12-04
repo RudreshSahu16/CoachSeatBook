@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   // BASE_URL:"http://localhost:9001"
-  BASE_URL:"https://coach-booking-system.vercel.app/"
+  BASE_URL:"https://coach-booking-system.vercel.app"
 };
 
 
